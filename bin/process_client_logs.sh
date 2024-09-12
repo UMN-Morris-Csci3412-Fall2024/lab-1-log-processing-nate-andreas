@@ -1,27 +1,26 @@
 #!/bin/bash
 
-# Check if directory argument is provided
-if [ -z "$1" ]; then
-  echo "Usage: $0 <directory>"
-  exit 1
+# Check if a directory is provided as an argument
+if [ -z "$1" ] || [ ! -d "$1" ]; then
+    echo "Usage: $0 <directory>"
+    exit 1
 fi
 
 # Change to the specified directory
-cd "$1" || { echo "Failed to change directory to $1"; exit 1; }
+cd "$1"
 
-# Initialize the output file
-output_file="failed_login_data.txt"
-> "$output_file"
-
-# Process each log file in the directory
-for log_file in *; do
-  if [ "$log_file" != "$output_file" ] && [ -f "$log_file" ]; then
-    echo "Processing $log_file"
-    # Extract and format failed login attempts
-    grep "Failed password" "$log_file" | awk '{print $1, $2, substr($3, 1, 2), $9, $11}' >> "$output_file"
-  else
-    echo "$log_file is not a regular file, skipping"
-  fi
-done
-
-echo "Processing complete. Output written to $output_file"
+# Process all log files in the directory
+cat *.log | awk '
+# Match lines with failed login attempts for invalid users
+/Failed password for invalid user/ {
+    split($0, fields, " ");
+    # Extract date, hour, computer name, username, and IP address
+    print fields[1] " " fields[2] " " substr(fields[3], 1, 2) " " fields[8] " " fields[10];
+}
+# Match lines with failed login attempts for valid users
+/Failed password for [a-zA-Z0-9_-]* from/ {
+    split($0, fields, " ");
+    # Extract date, hour, computer name, username, and IP address
+    print fields[1] " " fields[2] " " substr(fields[3], 1, 2) " " fields[7] " " fields[9];
+}
+' | sed 's/:..:.. / /' > failed_login_data.txt
