@@ -21,13 +21,19 @@ output_file="$log_directory/failed_login_data.txt"
 # Initialize/clear the output file
 > "$output_file"
 
-# Process each log file in the client directory
-for log_file in "$log_directory"/**/log/*; do
-  if [[ -f "$log_file" ]]; then
-    # Extract failed login attempts from the log file and write to the output file
-    grep "Failed password" "$log_file" | \
-    awk '{print $1, $2, $3, $9, $11}' >> "$output_file"
-  fi
+# Temporary file to store intermediate results
+temp_file=$(mktemp)
+
+# Find all log files recursively in the client directory
+find "$log_directory" -type f -name 'log*' | while read -r log_file; do
+  # Extract failed login attempts from the log file and write to the temp file
+  grep "Failed password" "$log_file" | awk '{printf "%s %s %s %s %s\n", $1, $2, $3, $9, $11}' >> "$temp_file"
 done
+
+# Sort and remove duplicate lines, then write to the output file
+sort -u "$temp_file" > "$output_file"
+
+# Remove the temporary file
+rm "$temp_file"
 
 echo "Failed login data has been written to $output_file"
