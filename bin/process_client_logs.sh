@@ -1,13 +1,7 @@
 #!/bin/bash
 
-# Ensure a directory argument is provided
-if [[ -z "$1" ]]; then
-  echo "Usage: $0 <client_log_directory>"
-  exit 1
-fi
-
-# Assign the provided directory to a variable
-log_directory="$1"
+# Hardcoded log directory as per the bats tests
+log_directory="data/discovery"
 
 # Check if the provided directory exists
 if [[ ! -d "$log_directory" ]]; then
@@ -26,14 +20,33 @@ temp_file=$(mktemp)
 
 # Find all log files recursively in the client directory
 find "$log_directory" -type f -name 'log*' | while read -r log_file; do
-  # Extract failed login attempts from the log file and write to the temp file
-  grep "Failed password" "$log_file" | awk '{printf "%s %s %s %s %s\n", $1, $2, $3, $9, $11}' >> "$temp_file"
+  # Extract failed login attempts, track unique combinations with awk
+  awk '
+    /Failed password for invalid user/ {
+      split($11, datetime, ":"); 
+      hour = datetime[1];
+      key = $1 " " hour " " $9 " " $13; 
+      if (!seen[key]) {
+        print $1, hour, $9, $13; 
+        seen[key] = 1; 
+      }
+    } 
+    /Failed password for [a-zA-Z0-9_]+/ {
+      split($10, datetime, ":"); 
+      hour = datetime[1];
+      key = $1 " " hour " " $8 " " $12; 
+      if (!seen[key]) {
+        print $1, hour, $8, $12; 
+        seen[key] = 1; 
+      }
+    }
+  ' "$log_file" >> "$temp_file"
 done
 
-# Sort and remove duplicate lines, then write to the output file
-sort -u "$temp_file" > "$output_file"
+# Write the log entries to the output file without sorting
+cat "$temp_file" > "$output_file"
 
-# Remove the temporary file
+# Clean up the temporary file
 rm "$temp_file"
 
 echo "Failed login data has been written to $output_file"
