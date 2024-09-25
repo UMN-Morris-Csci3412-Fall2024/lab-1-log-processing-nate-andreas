@@ -67,6 +67,7 @@ teardown() {
 # for the logs for discovery.
 @test "bin/process_client_logs.sh generates correct simple output" {
   bin/process_client_logs.sh data/discovery
+  cd "$(dirname "$BATS_TEST_DIRNAME")" || exit
   sort data/discovery/failed_login_data.txt > data/discovery_sorted.txt
   sort tests/discovery_failed_login_data.txt > data/target_sorted.txt
   run diff -wbB data/target_sorted.txt data/discovery_sorted.txt
