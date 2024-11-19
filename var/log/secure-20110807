@@ -1,9 +1,0 @@
-Aug  5 08:18:36 discovery sshd[29778]: Did not receive identification string from 113.161.68.175
-Aug  5 10:46:16 discovery sshd[31236]: reverse mapping checking getaddrinfo for 66-234-123-55.fedtel.stellarllc.net [66.234.123.55] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  5 10:46:19 discovery sshd[31236]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.234.123.55  user=rupre009
-Aug  5 10:46:19 discovery sshd[31236]: Accepted password for rupre009 from 66.234.123.55 port 49599 ssh2
-Aug  5 10:46:19 discovery sshd[31236]: pam_unix(sshd:session): session opened for user rupre009 by (uid=0)
-Aug  5 10:46:19 discovery sshd[31240]: Received disconnect from 66.234.123.55: 11: disconnected by user
-Aug  5 10:46:19 discovery sshd[31236]: pam_unix(sshd:session): session closed for user rupre009
-Aug  5 10:46:26 discovery sshd[31287]: reverse mapping checking getaddrinfo for 66-234-123-55.fedtel.stellarllc.net [66.234.123.55] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  5 10:46:28 discovery sshd[31288]: Connection closed by 66.234.123.55
