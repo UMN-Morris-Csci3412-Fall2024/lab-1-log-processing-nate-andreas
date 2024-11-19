@@ -1,165 +1,162 @@
-Jul 10 13:44:49 discovery sshd[32404]: reverse mapping checking getaddrinfo for 189-109-125-110.customer.tdatabrasil.net.br [189.109.125.110] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 10 13:44:50 discovery unix_chkpwd[32407]: password check failed for user (root)
-Jul 10 13:44:50 discovery sshd[32404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.109.125.110  user=root
-Jul 10 13:44:51 discovery sshd[32404]: Failed password for root from 189.109.125.110 port 49048 ssh2
-Jul 10 13:44:52 discovery sshd[32405]: Received disconnect from 189.109.125.110: 11: Bye Bye
-Jul 10 13:44:53 discovery sshd[32408]: reverse mapping checking getaddrinfo for 189-109-125-110.customer.tdatabrasil.net.br [189.109.125.110] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 10 13:44:53 discovery unix_chkpwd[32410]: password check failed for user (root)
-Jul 10 13:44:53 discovery sshd[32408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.109.125.110  user=root
-Jul 10 13:44:55 discovery sshd[32408]: Failed password for root from 189.109.125.110 port 49326 ssh2
-Jul 10 13:44:55 discovery sshd[32409]: Received disconnect from 189.109.125.110: 11: Bye Bye
-Jul 10 13:44:57 discovery sshd[32411]: reverse mapping checking getaddrinfo for 189-109-125-110.customer.tdatabrasil.net.br [189.109.125.110] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 10 13:44:57 discovery unix_chkpwd[32413]: password check failed for user (root)
-Jul 10 13:44:57 discovery sshd[32411]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.109.125.110  user=root
-Jul 10 13:44:58 discovery sshd[32411]: Failed password for root from 189.109.125.110 port 49614 ssh2
-Jul 10 13:44:58 discovery sshd[32412]: Received disconnect from 189.109.125.110: 11: Bye Bye
-Jul 10 13:45:00 discovery sshd[32414]: reverse mapping checking getaddrinfo for 189-109-125-110.customer.tdatabrasil.net.br [189.109.125.110] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 10 13:45:00 discovery unix_chkpwd[32416]: password check failed for user (root)
-Jul 10 13:45:00 discovery sshd[32414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.109.125.110  user=root
-Jul 10 13:45:01 discovery sshd[32414]: Failed password for root from 189.109.125.110 port 49904 ssh2
-Jul 10 13:45:02 discovery sshd[32415]: Received disconnect from 189.109.125.110: 11: Bye Bye
-Jul 11 08:10:32 discovery unix_chkpwd[11330]: password check failed for user (root)
-Jul 11 08:10:32 discovery sshd[11328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
-Jul 11 08:10:35 discovery sshd[11328]: Failed password for root from 113.31.19.113 port 56465 ssh2
-Jul 11 08:10:35 discovery sshd[11329]: Received disconnect from 113.31.19.113: 11: Bye Bye
-Jul 11 08:10:37 discovery unix_chkpwd[11334]: password check failed for user (root)
-Jul 11 08:10:37 discovery sshd[11332]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
-Jul 11 08:10:38 discovery sshd[11332]: Failed password for root from 113.31.19.113 port 56704 ssh2
-Jul 11 08:10:39 discovery sshd[11333]: Received disconnect from 113.31.19.113: 11: Bye Bye
-Jul 11 08:10:41 discovery unix_chkpwd[11337]: password check failed for user (root)
-Jul 11 08:10:41 discovery sshd[11335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
-Jul 11 08:10:43 discovery sshd[11335]: Failed password for root from 113.31.19.113 port 56966 ssh2
-Jul 11 08:10:43 discovery sshd[11336]: Received disconnect from 113.31.19.113: 11: Bye Bye
-Jul 11 08:10:45 discovery unix_chkpwd[11340]: password check failed for user (root)
-Jul 11 08:10:45 discovery sshd[11338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
-Jul 11 08:10:47 discovery sshd[11338]: Failed password for root from 113.31.19.113 port 57272 ssh2
-Jul 11 08:10:47 discovery sshd[11339]: Received disconnect from 113.31.19.113: 11: Bye Bye
-Jul 12 15:37:25 discovery sshd[30287]: Bad protocol version identification 'GET http://www.sciencedirect.com/ HTTP/1.1' from 124.114.171.201
-Jul 13 02:13:58 discovery unix_chkpwd[4310]: password check failed for user (root)
-Jul 13 02:13:58 discovery sshd[4308]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94  user=root
-Jul 13 02:13:59 discovery sshd[4308]: Failed password for root from 121.88.249.94 port 36459 ssh2
-Jul 13 02:14:00 discovery sshd[4309]: Received disconnect from 121.88.249.94: 11: Bye Bye
-Jul 13 02:14:02 discovery sshd[4312]: Invalid user db2inst1 from 121.88.249.94
-Jul 13 02:14:02 discovery sshd[4313]: input_userauth_request: invalid user db2inst1
-Jul 13 02:14:02 discovery sshd[4312]: pam_unix(sshd:auth): check pass; user unknown
-Jul 13 02:14:02 discovery sshd[4312]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94 
-Jul 13 02:14:02 discovery sshd[4312]: pam_succeed_if(sshd:auth): error retrieving information about user db2inst1
-Jul 13 02:14:04 discovery sshd[4312]: Failed password for invalid user db2inst1 from 121.88.249.94 port 37449 ssh2
-Jul 13 02:14:04 discovery sshd[4313]: Received disconnect from 121.88.249.94: 11: Bye Bye
-Jul 13 02:14:07 discovery unix_chkpwd[4317]: password check failed for user (root)
-Jul 13 02:14:07 discovery sshd[4315]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94  user=root
-Jul 13 02:14:09 discovery sshd[4315]: Failed password for root from 121.88.249.94 port 38412 ssh2
-Jul 13 02:14:09 discovery sshd[4316]: Received disconnect from 121.88.249.94: 11: Bye Bye
-Jul 13 02:14:11 discovery sshd[4318]: Invalid user prueba from 121.88.249.94
-Jul 13 02:14:11 discovery sshd[4319]: input_userauth_request: invalid user prueba
-Jul 13 02:14:11 discovery sshd[4318]: pam_unix(sshd:auth): check pass; user unknown
-Jul 13 02:14:11 discovery sshd[4318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94 
-Jul 13 02:14:11 discovery sshd[4318]: pam_succeed_if(sshd:auth): error retrieving information about user prueba
-Jul 13 02:14:13 discovery sshd[4318]: Failed password for invalid user prueba from 121.88.249.94 port 39437 ssh2
-Jul 13 02:14:13 discovery sshd[4319]: Received disconnect from 121.88.249.94: 11: Bye Bye
-Jul 13 06:46:46 discovery sshd[7253]: Did not receive identification string from 222.117.53.107
-Jul 13 06:58:39 discovery unix_chkpwd[7371]: password check failed for user (root)
-Jul 13 06:58:39 discovery sshd[7369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
-Jul 13 06:58:40 discovery sshd[7369]: Failed password for root from 222.117.53.107 port 38688 ssh2
-Jul 13 06:58:41 discovery sshd[7370]: Received disconnect from 222.117.53.107: 11: Bye Bye
-Jul 13 06:58:44 discovery unix_chkpwd[7375]: password check failed for user (root)
-Jul 13 06:58:44 discovery sshd[7373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
-Jul 13 06:58:46 discovery sshd[7373]: Failed password for root from 222.117.53.107 port 39188 ssh2
-Jul 13 06:58:46 discovery sshd[7374]: Received disconnect from 222.117.53.107: 11: Bye Bye
-Jul 13 06:58:49 discovery unix_chkpwd[7378]: password check failed for user (root)
-Jul 13 06:58:49 discovery sshd[7376]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
-Jul 13 06:58:51 discovery sshd[7376]: Failed password for root from 222.117.53.107 port 39681 ssh2
-Jul 13 06:58:52 discovery sshd[7377]: Received disconnect from 222.117.53.107: 11: Bye Bye
-Jul 13 06:58:55 discovery unix_chkpwd[7389]: password check failed for user (root)
-Jul 13 06:58:55 discovery sshd[7387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
-Jul 13 06:58:56 discovery sshd[7387]: Failed password for root from 222.117.53.107 port 40178 ssh2
-Jul 13 06:58:57 discovery sshd[7388]: Received disconnect from 222.117.53.107: 11: Bye Bye
-Jul 14 18:43:55 discovery sshd[28870]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 14 18:43:55 discovery unix_chkpwd[28873]: password check failed for user (root)
-Jul 14 18:43:55 discovery sshd[28870]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
-Jul 14 18:43:57 discovery sshd[28870]: Failed password for root from 94.228.203.238 port 49963 ssh2
-Jul 14 18:43:57 discovery sshd[28871]: Received disconnect from 94.228.203.238: 11: Bye Bye
-Jul 14 18:43:59 discovery sshd[28874]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 14 18:43:59 discovery unix_chkpwd[28876]: password check failed for user (root)
-Jul 14 18:43:59 discovery sshd[28874]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
-Jul 14 18:44:01 discovery sshd[28874]: Failed password for root from 94.228.203.238 port 50145 ssh2
-Jul 14 18:44:01 discovery sshd[28875]: Received disconnect from 94.228.203.238: 11: Bye Bye
-Jul 14 18:44:02 discovery sshd[28877]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 14 18:44:02 discovery unix_chkpwd[28879]: password check failed for user (root)
-Jul 14 18:44:02 discovery sshd[28877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
-Jul 14 18:44:04 discovery sshd[28877]: Failed password for root from 94.228.203.238 port 50325 ssh2
-Jul 14 18:44:04 discovery sshd[28878]: Received disconnect from 94.228.203.238: 11: Bye Bye
-Jul 14 18:44:06 discovery sshd[28880]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 14 18:44:06 discovery unix_chkpwd[28883]: password check failed for user (root)
-Jul 14 18:44:06 discovery sshd[28880]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
-Jul 14 18:44:07 discovery sshd[28880]: Failed password for root from 94.228.203.238 port 50483 ssh2
-Jul 14 18:44:08 discovery sshd[28881]: Received disconnect from 94.228.203.238: 11: Bye Bye
-Jul 14 19:09:44 discovery unix_chkpwd[29151]: password check failed for user (root)
-Jul 14 19:09:44 discovery sshd[29149]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
-Jul 14 19:09:46 discovery sshd[29149]: Failed password for root from 60.28.128.70 port 42301 ssh2
-Jul 14 19:09:46 discovery sshd[29150]: Received disconnect from 60.28.128.70: 11: Bye Bye
-Jul 14 19:09:48 discovery unix_chkpwd[29155]: password check failed for user (root)
-Jul 14 19:09:48 discovery sshd[29153]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
-Jul 14 19:09:50 discovery sshd[29153]: Failed password for root from 60.28.128.70 port 42515 ssh2
-Jul 14 19:09:50 discovery sshd[29154]: Received disconnect from 60.28.128.70: 11: Bye Bye
-Jul 14 19:09:52 discovery unix_chkpwd[29158]: password check failed for user (root)
-Jul 14 19:09:52 discovery sshd[29156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
-Jul 14 19:09:55 discovery sshd[29156]: Failed password for root from 60.28.128.70 port 42796 ssh2
-Jul 14 19:09:55 discovery sshd[29157]: Received disconnect from 60.28.128.70: 11: Bye Bye
-Jul 14 19:09:57 discovery unix_chkpwd[29161]: password check failed for user (root)
-Jul 14 19:09:57 discovery sshd[29159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
-Jul 14 19:09:59 discovery sshd[29159]: Failed password for root from 60.28.128.70 port 43112 ssh2
-Jul 14 19:09:59 discovery sshd[29160]: Received disconnect from 60.28.128.70: 11: Bye Bye
-Jul 15 08:06:02 discovery sshd[4821]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 15 08:06:02 discovery unix_chkpwd[4824]: password check failed for user (root)
-Jul 15 08:06:02 discovery sshd[4821]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
-Jul 15 08:06:04 discovery sshd[4821]: Failed password for root from 61.111.12.35 port 36680 ssh2
-Jul 15 08:06:04 discovery sshd[4822]: Received disconnect from 61.111.12.35: 11: Bye Bye
-Jul 15 08:06:07 discovery sshd[4825]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 15 08:06:07 discovery unix_chkpwd[4827]: password check failed for user (root)
-Jul 15 08:06:07 discovery sshd[4825]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
-Jul 15 08:06:08 discovery sshd[4825]: Failed password for root from 61.111.12.35 port 36959 ssh2
-Jul 15 08:06:09 discovery sshd[4826]: Received disconnect from 61.111.12.35: 11: Bye Bye
-Jul 15 08:06:11 discovery sshd[4828]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 15 08:06:11 discovery unix_chkpwd[4830]: password check failed for user (root)
-Jul 15 08:06:11 discovery sshd[4828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
-Jul 15 08:06:13 discovery sshd[4828]: Failed password for root from 61.111.12.35 port 37253 ssh2
-Jul 15 08:06:13 discovery sshd[4829]: Received disconnect from 61.111.12.35: 11: Bye Bye
-Jul 15 08:06:17 discovery sshd[4831]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
-Jul 15 08:06:17 discovery unix_chkpwd[4833]: password check failed for user (root)
-Jul 15 08:06:17 discovery sshd[4831]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
-Jul 15 08:06:19 discovery sshd[4831]: Failed password for root from 61.111.12.35 port 37590 ssh2
-Jul 15 08:06:19 discovery sshd[4832]: Received disconnect from 61.111.12.35: 11: Bye Bye
-Jul 15 15:48:41 discovery sshd[9401]: Did not receive identification string from 218.87.16.135
-Jul 16 06:04:16 discovery unix_chkpwd[18139]: password check failed for user (root)
-Jul 16 06:04:16 discovery sshd[18137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
-Jul 16 06:04:18 discovery sshd[18137]: Failed password for root from 72.167.143.112 port 47297 ssh2
-Jul 16 06:04:18 discovery sshd[18138]: Received disconnect from 72.167.143.112: 11: Bye Bye
-Jul 16 06:04:19 discovery unix_chkpwd[18143]: password check failed for user (root)
-Jul 16 06:04:19 discovery sshd[18141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
-Jul 16 06:04:21 discovery sshd[18141]: Failed password for root from 72.167.143.112 port 47553 ssh2
-Jul 16 06:04:21 discovery sshd[18142]: Received disconnect from 72.167.143.112: 11: Bye Bye
-Jul 16 06:04:22 discovery unix_chkpwd[18154]: password check failed for user (root)
-Jul 16 06:04:22 discovery sshd[18144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
-Jul 16 06:04:24 discovery sshd[18144]: Failed password for root from 72.167.143.112 port 47972 ssh2
-Jul 16 06:04:24 discovery sshd[18145]: Received disconnect from 72.167.143.112: 11: Bye Bye
-Jul 16 06:04:25 discovery unix_chkpwd[18157]: password check failed for user (root)
-Jul 16 06:04:25 discovery sshd[18155]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
-Jul 16 06:04:27 discovery sshd[18155]: Failed password for root from 72.167.143.112 port 48516 ssh2
-Jul 16 06:04:27 discovery sshd[18156]: Received disconnect from 72.167.143.112: 11: Bye Bye
-Jul 16 10:53:09 discovery unix_chkpwd[21000]: password check failed for user (root)
-Jul 16 10:53:09 discovery sshd[20998]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=dinamo.mediasat.ro  user=root
-Jul 16 10:53:11 discovery sshd[20998]: Failed password for root from 85.204.224.198 port 49588 ssh2
-Jul 16 10:53:11 discovery sshd[20999]: Received disconnect from 85.204.224.198: 11: Bye Bye
-Jul 16 10:53:12 discovery unix_chkpwd[21004]: password check failed for user (root)
-Jul 16 10:53:12 discovery sshd[21002]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=dinamo.mediasat.ro  user=root
-Jul 16 10:53:14 discovery sshd[21002]: Failed password for root from 85.204.224.198 port 49916 ssh2
-Jul 16 10:53:14 discovery sshd[21003]: Received disconnect from 85.204.224.198: 11: Bye Bye
-Jul 16 10:53:16 discovery unix_chkpwd[21007]: password check failed for user (root)
-Jul 16 10:53:16 discovery sshd[21005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=dinamo.mediasat.ro  user=root
-Jul 16 10:53:17 discovery sshd[21005]: Failed password for root from 85.204.224.198 port 50190 ssh2
-Jul 16 10:53:18 discovery sshd[21006]: Received disconnect from 85.204.224.198: 11: Bye Bye
-Jul 16 10:53:19 discovery unix_chkpwd[21010]: password check failed for user (root)
-Jul 16 10:53:19 discovery sshd[21008]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=dinamo.mediasat.ro  user=root
-Jul 16 10:53:21 discovery sshd[21008]: Failed password for root from 85.204.224.198 port 50409 ssh2
-Jul 16 10:53:21 discovery sshd[21009]: Received disconnect from 85.204.224.198: 11: Bye Bye
+Jul 11 08:10:32 mylar unix_chkpwd[11962]: password check failed for user (root)
+Jul 11 08:10:32 mylar sshd[11960]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
+Jul 11 08:10:34 mylar sshd[11960]: Failed password for root from 113.31.19.113 port 54587 ssh2
+Jul 11 08:10:35 mylar sshd[11961]: Received disconnect from 113.31.19.113: 11: Bye Bye
+Jul 11 08:10:37 mylar unix_chkpwd[11966]: password check failed for user (root)
+Jul 11 08:10:37 mylar sshd[11964]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
+Jul 11 08:10:38 mylar sshd[11964]: Failed password for root from 113.31.19.113 port 54831 ssh2
+Jul 11 08:10:39 mylar sshd[11965]: Received disconnect from 113.31.19.113: 11: Bye Bye
+Jul 11 08:10:41 mylar unix_chkpwd[11969]: password check failed for user (root)
+Jul 11 08:10:41 mylar sshd[11967]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
+Jul 11 08:10:43 mylar sshd[11967]: Failed password for root from 113.31.19.113 port 55101 ssh2
+Jul 11 08:10:43 mylar sshd[11968]: Received disconnect from 113.31.19.113: 11: Bye Bye
+Jul 11 08:10:45 mylar unix_chkpwd[11972]: password check failed for user (root)
+Jul 11 08:10:45 mylar sshd[11970]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.19.113  user=root
+Jul 11 08:10:47 mylar sshd[11970]: Failed password for root from 113.31.19.113 port 55411 ssh2
+Jul 11 08:10:47 mylar sshd[11971]: Received disconnect from 113.31.19.113: 11: Bye Bye
+Jul 13 02:13:57 mylar unix_chkpwd[5126]: password check failed for user (root)
+Jul 13 02:13:57 mylar sshd[5116]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94  user=root
+Jul 13 02:13:58 mylar sshd[5116]: Failed password for root from 121.88.249.94 port 38942 ssh2
+Jul 13 02:13:58 mylar sshd[5117]: Received disconnect from 121.88.249.94: 11: Bye Bye
+Jul 13 02:14:01 mylar sshd[5128]: Invalid user db2inst1 from 121.88.249.94
+Jul 13 02:14:01 mylar sshd[5129]: input_userauth_request: invalid user db2inst1
+Jul 13 02:14:01 mylar sshd[5128]: pam_unix(sshd:auth): check pass; user unknown
+Jul 13 02:14:01 mylar sshd[5128]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94 
+Jul 13 02:14:01 mylar sshd[5128]: pam_succeed_if(sshd:auth): error retrieving information about user db2inst1
+Jul 13 02:14:04 mylar sshd[5128]: Failed password for invalid user db2inst1 from 121.88.249.94 port 39907 ssh2
+Jul 13 02:14:04 mylar sshd[5129]: Received disconnect from 121.88.249.94: 11: Bye Bye
+Jul 13 02:14:06 mylar unix_chkpwd[5132]: password check failed for user (root)
+Jul 13 02:14:06 mylar sshd[5130]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94  user=root
+Jul 13 02:14:08 mylar sshd[5130]: Failed password for root from 121.88.249.94 port 41061 ssh2
+Jul 13 02:14:08 mylar sshd[5131]: Received disconnect from 121.88.249.94: 11: Bye Bye
+Jul 13 02:14:11 mylar sshd[5133]: Invalid user prueba from 121.88.249.94
+Jul 13 02:14:11 mylar sshd[5134]: input_userauth_request: invalid user prueba
+Jul 13 02:14:11 mylar sshd[5133]: pam_unix(sshd:auth): check pass; user unknown
+Jul 13 02:14:11 mylar sshd[5133]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.88.249.94 
+Jul 13 02:14:11 mylar sshd[5133]: pam_succeed_if(sshd:auth): error retrieving information about user prueba
+Jul 13 02:14:13 mylar sshd[5133]: Failed password for invalid user prueba from 121.88.249.94 port 42044 ssh2
+Jul 13 02:14:13 mylar sshd[5134]: Received disconnect from 121.88.249.94: 11: Bye Bye
+Jul 13 06:46:46 mylar sshd[8110]: Did not receive identification string from 222.117.53.107
+Jul 13 06:58:39 mylar unix_chkpwd[8230]: password check failed for user (root)
+Jul 13 06:58:39 mylar sshd[8227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
+Jul 13 06:58:41 mylar sshd[8227]: Failed password for root from 222.117.53.107 port 35187 ssh2
+Jul 13 06:58:42 mylar sshd[8228]: Received disconnect from 222.117.53.107: 11: Bye Bye
+Jul 13 06:58:45 mylar unix_chkpwd[8234]: password check failed for user (root)
+Jul 13 06:58:45 mylar sshd[8232]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
+Jul 13 06:58:46 mylar sshd[8232]: Failed password for root from 222.117.53.107 port 35719 ssh2
+Jul 13 06:58:47 mylar sshd[8233]: Received disconnect from 222.117.53.107: 11: Bye Bye
+Jul 13 06:58:50 mylar unix_chkpwd[8237]: password check failed for user (root)
+Jul 13 06:58:50 mylar sshd[8235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
+Jul 13 06:58:53 mylar sshd[8235]: Failed password for root from 222.117.53.107 port 36206 ssh2
+Jul 13 06:58:53 mylar sshd[8236]: Received disconnect from 222.117.53.107: 11: Bye Bye
+Jul 13 06:58:57 mylar unix_chkpwd[8240]: password check failed for user (root)
+Jul 13 06:58:57 mylar sshd[8238]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.117.53.107  user=root
+Jul 13 06:58:58 mylar sshd[8238]: Failed password for root from 222.117.53.107 port 36710 ssh2
+Jul 13 06:58:58 mylar sshd[8239]: Received disconnect from 222.117.53.107: 11: Bye Bye
+Jul 14 06:14:51 mylar unix_chkpwd[22401]: password check failed for user (root)
+Jul 14 06:14:51 mylar sshd[22399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.73.91.56  user=root
+Jul 14 06:14:53 mylar sshd[22399]: Failed password for root from 222.73.91.56 port 33512 ssh2
+Jul 14 06:14:54 mylar sshd[22400]: Received disconnect from 222.73.91.56: 11: Bye Bye
+Jul 14 06:14:56 mylar unix_chkpwd[22414]: password check failed for user (root)
+Jul 14 06:14:56 mylar sshd[22404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.73.91.56  user=root
+Jul 14 06:14:58 mylar sshd[22404]: Failed password for root from 222.73.91.56 port 33864 ssh2
+Jul 14 06:14:59 mylar sshd[22413]: Received disconnect from 222.73.91.56: 11: Bye Bye
+Jul 14 06:15:02 mylar unix_chkpwd[22417]: password check failed for user (root)
+Jul 14 06:15:02 mylar sshd[22415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.73.91.56  user=root
+Jul 14 06:15:04 mylar sshd[22415]: Failed password for root from 222.73.91.56 port 34089 ssh2
+Jul 14 06:15:04 mylar sshd[22416]: Received disconnect from 222.73.91.56: 11: Bye Bye
+Jul 14 06:15:07 mylar unix_chkpwd[22420]: password check failed for user (root)
+Jul 14 06:15:07 mylar sshd[22418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.73.91.56  user=root
+Jul 14 06:15:09 mylar sshd[22418]: Failed password for root from 222.73.91.56 port 34376 ssh2
+Jul 14 06:15:10 mylar sshd[22419]: Received disconnect from 222.73.91.56: 11: Bye Bye
+Jul 14 18:43:33 mylar sshd[29892]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 14 18:43:33 mylar unix_chkpwd[29895]: password check failed for user (root)
+Jul 14 18:43:33 mylar sshd[29892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
+Jul 14 18:43:35 mylar sshd[29892]: Failed password for root from 94.228.203.238 port 36865 ssh2
+Jul 14 18:43:35 mylar sshd[29893]: Received disconnect from 94.228.203.238: 11: Bye Bye
+Jul 14 18:43:36 mylar sshd[29896]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 14 18:43:36 mylar unix_chkpwd[29898]: password check failed for user (root)
+Jul 14 18:43:36 mylar sshd[29896]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
+Jul 14 18:43:38 mylar sshd[29896]: Failed password for root from 94.228.203.238 port 37044 ssh2
+Jul 14 18:43:38 mylar sshd[29897]: Received disconnect from 94.228.203.238: 11: Bye Bye
+Jul 14 18:43:40 mylar sshd[29900]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 14 18:43:40 mylar unix_chkpwd[29902]: password check failed for user (root)
+Jul 14 18:43:40 mylar sshd[29900]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
+Jul 14 18:43:41 mylar sshd[29900]: Failed password for root from 94.228.203.238 port 37199 ssh2
+Jul 14 18:43:42 mylar sshd[29901]: Received disconnect from 94.228.203.238: 11: Bye Bye
+Jul 14 18:43:43 mylar sshd[29903]: reverse mapping checking getaddrinfo for union-tel.203.238.ru [94.228.203.238] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 14 18:43:43 mylar unix_chkpwd[29905]: password check failed for user (root)
+Jul 14 18:43:43 mylar sshd[29903]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.228.203.238  user=root
+Jul 14 18:43:45 mylar sshd[29903]: Failed password for root from 94.228.203.238 port 37358 ssh2
+Jul 14 18:43:45 mylar sshd[29904]: Received disconnect from 94.228.203.238: 11: Bye Bye
+Jul 14 19:09:44 mylar unix_chkpwd[30173]: password check failed for user (root)
+Jul 14 19:09:44 mylar sshd[30171]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
+Jul 14 19:09:45 mylar sshd[30171]: Failed password for root from 60.28.128.70 port 43389 ssh2
+Jul 14 19:09:46 mylar sshd[30172]: Received disconnect from 60.28.128.70: 11: Bye Bye
+Jul 14 19:09:48 mylar unix_chkpwd[30177]: password check failed for user (root)
+Jul 14 19:09:48 mylar sshd[30175]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
+Jul 14 19:09:50 mylar sshd[30175]: Failed password for root from 60.28.128.70 port 43597 ssh2
+Jul 14 19:09:50 mylar sshd[30176]: Received disconnect from 60.28.128.70: 11: Bye Bye
+Jul 14 19:09:52 mylar unix_chkpwd[30180]: password check failed for user (root)
+Jul 14 19:09:52 mylar sshd[30178]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
+Jul 14 19:09:54 mylar sshd[30178]: Failed password for root from 60.28.128.70 port 43873 ssh2
+Jul 14 19:09:54 mylar sshd[30179]: Received disconnect from 60.28.128.70: 11: Bye Bye
+Jul 14 19:09:56 mylar unix_chkpwd[30184]: password check failed for user (root)
+Jul 14 19:09:56 mylar sshd[30182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.28.128.70  user=root
+Jul 14 19:09:58 mylar sshd[30182]: Failed password for root from 60.28.128.70 port 44186 ssh2
+Jul 14 19:09:58 mylar sshd[30183]: Received disconnect from 60.28.128.70: 11: Bye Bye
+Jul 14 23:31:50 mylar sshd[327]: Invalid user ____ from 59.90.148.176
+Jul 14 23:31:50 mylar sshd[328]: input_userauth_request: invalid user ____
+Jul 14 23:31:50 mylar sshd[327]: pam_unix(sshd:auth): check pass; user unknown
+Jul 14 23:31:50 mylar sshd[327]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.90.148.176 
+Jul 14 23:31:50 mylar sshd[327]: pam_succeed_if(sshd:auth): error retrieving information about user ____
+Jul 14 23:31:53 mylar sshd[327]: Failed password for invalid user ____ from 59.90.148.176 port 48664 ssh2
+Jul 14 23:31:53 mylar sshd[328]: Received disconnect from 59.90.148.176: 11: Bye Bye
+Jul 14 23:32:09 mylar unix_chkpwd[333]: password check failed for user (root)
+Jul 14 23:32:09 mylar sshd[330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.90.148.176  user=root
+Jul 14 23:32:11 mylar sshd[330]: Failed password for root from 59.90.148.176 port 50133 ssh2
+Jul 14 23:32:11 mylar sshd[331]: Received disconnect from 59.90.148.176: 11: Bye Bye
+Jul 14 23:32:13 mylar unix_chkpwd[336]: password check failed for user (root)
+Jul 14 23:32:13 mylar sshd[334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.90.148.176  user=root
+Jul 14 23:32:16 mylar sshd[334]: Failed password for root from 59.90.148.176 port 52229 ssh2
+Jul 14 23:32:16 mylar sshd[335]: Received disconnect from 59.90.148.176: 11: Bye Bye
+Jul 14 23:32:18 mylar unix_chkpwd[339]: password check failed for user (root)
+Jul 14 23:32:18 mylar sshd[337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.90.148.176  user=root
+Jul 14 23:32:21 mylar sshd[337]: Failed password for root from 59.90.148.176 port 52529 ssh2
+Jul 14 23:32:21 mylar sshd[338]: Received disconnect from 59.90.148.176: 11: Bye Bye
+Jul 15 08:06:01 mylar sshd[5893]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 15 08:06:01 mylar unix_chkpwd[5896]: password check failed for user (root)
+Jul 15 08:06:01 mylar sshd[5893]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
+Jul 15 08:06:03 mylar sshd[5893]: Failed password for root from 61.111.12.35 port 36618 ssh2
+Jul 15 08:06:03 mylar sshd[5894]: Received disconnect from 61.111.12.35: 11: Bye Bye
+Jul 15 08:06:05 mylar sshd[5897]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 15 08:06:05 mylar unix_chkpwd[5899]: password check failed for user (root)
+Jul 15 08:06:05 mylar sshd[5897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
+Jul 15 08:06:07 mylar sshd[5897]: Failed password for root from 61.111.12.35 port 36860 ssh2
+Jul 15 08:06:08 mylar sshd[5898]: Received disconnect from 61.111.12.35: 11: Bye Bye
+Jul 15 08:06:10 mylar sshd[5901]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 15 08:06:10 mylar unix_chkpwd[5903]: password check failed for user (root)
+Jul 15 08:06:10 mylar sshd[5901]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
+Jul 15 08:06:12 mylar sshd[5901]: Failed password for root from 61.111.12.35 port 37186 ssh2
+Jul 15 08:06:12 mylar sshd[5902]: Received disconnect from 61.111.12.35: 11: Bye Bye
+Jul 15 08:06:15 mylar sshd[5904]: reverse mapping checking getaddrinfo for 61-111-12-35.kidc.net [61.111.12.35] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul 15 08:06:15 mylar unix_chkpwd[5906]: password check failed for user (root)
+Jul 15 08:06:15 mylar sshd[5904]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.111.12.35  user=root
+Jul 15 08:06:17 mylar sshd[5904]: Failed password for root from 61.111.12.35 port 37521 ssh2
+Jul 15 08:06:17 mylar sshd[5905]: Received disconnect from 61.111.12.35: 11: Bye Bye
+Jul 16 06:04:15 mylar unix_chkpwd[19305]: password check failed for user (root)
+Jul 16 06:04:15 mylar sshd[19303]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
+Jul 16 06:04:17 mylar sshd[19303]: Failed password for root from 72.167.143.112 port 40013 ssh2
+Jul 16 06:04:17 mylar sshd[19304]: Received disconnect from 72.167.143.112: 11: Bye Bye
+Jul 16 06:04:18 mylar unix_chkpwd[19309]: password check failed for user (root)
+Jul 16 06:04:18 mylar sshd[19307]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
+Jul 16 06:04:20 mylar sshd[19307]: Failed password for root from 72.167.143.112 port 40239 ssh2
+Jul 16 06:04:20 mylar sshd[19308]: Received disconnect from 72.167.143.112: 11: Bye Bye
+Jul 16 06:04:21 mylar unix_chkpwd[19312]: password check failed for user (root)
+Jul 16 06:04:21 mylar sshd[19310]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
+Jul 16 06:04:22 mylar sshd[19310]: Failed password for root from 72.167.143.112 port 40549 ssh2
+Jul 16 06:04:22 mylar sshd[19311]: Received disconnect from 72.167.143.112: 11: Bye Bye
+Jul 16 06:04:23 mylar unix_chkpwd[19315]: password check failed for user (root)
+Jul 16 06:04:23 mylar sshd[19313]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ip-72-167-143-112.ip.secureserver.net  user=root
+Jul 16 06:04:25 mylar sshd[19313]: Failed password for root from 72.167.143.112 port 40986 ssh2
+Jul 16 06:04:25 mylar sshd[19314]: Received disconnect from 72.167.143.112: 11: Bye Bye

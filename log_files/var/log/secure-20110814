@@ -1,151 +1,103 @@
-Aug  8 13:14:26 discovery sshd[11696]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  8 13:14:26 discovery unix_chkpwd[11699]: password check failed for user (root)
-Aug  8 13:14:26 discovery sshd[11696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
-Aug  8 13:14:28 discovery sshd[11696]: Failed password for root from 62.76.47.113 port 51979 ssh2
-Aug  8 13:14:28 discovery sshd[11697]: Received disconnect from 62.76.47.113: 11: Bye Bye
-Aug  8 13:14:30 discovery sshd[11700]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  8 13:14:30 discovery unix_chkpwd[11702]: password check failed for user (root)
-Aug  8 13:14:30 discovery sshd[11700]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
-Aug  8 13:14:32 discovery sshd[11700]: Failed password for root from 62.76.47.113 port 52444 ssh2
-Aug  8 13:14:32 discovery sshd[11701]: Received disconnect from 62.76.47.113: 11: Bye Bye
-Aug  8 13:14:34 discovery sshd[11703]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  8 13:14:34 discovery unix_chkpwd[11705]: password check failed for user (root)
-Aug  8 13:14:34 discovery sshd[11703]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
-Aug  8 13:14:36 discovery sshd[11703]: Failed password for root from 62.76.47.113 port 53017 ssh2
-Aug  8 13:14:36 discovery sshd[11704]: Received disconnect from 62.76.47.113: 11: Bye Bye
-Aug  8 13:14:37 discovery sshd[11706]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  8 13:14:37 discovery unix_chkpwd[11708]: password check failed for user (root)
-Aug  8 13:14:37 discovery sshd[11706]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
-Aug  8 13:14:40 discovery sshd[11706]: Failed password for root from 62.76.47.113 port 53651 ssh2
-Aug  8 13:14:40 discovery sshd[11707]: Received disconnect from 62.76.47.113: 11: Bye Bye
-Aug  9 01:36:46 discovery sshd[19049]: Did not receive identification string from 66.35.208.204
-Aug  9 01:44:49 discovery sshd[19127]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 01:44:49 discovery unix_chkpwd[19130]: password check failed for user (root)
-Aug  9 01:44:49 discovery sshd[19127]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
-Aug  9 01:44:52 discovery sshd[19127]: Failed password for root from 66.35.208.204 port 48537 ssh2
-Aug  9 01:44:52 discovery sshd[19128]: Received disconnect from 66.35.208.204: 11: Bye Bye
-Aug  9 01:44:52 discovery sshd[19131]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 01:44:53 discovery unix_chkpwd[19133]: password check failed for user (root)
-Aug  9 01:44:53 discovery sshd[19131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
-Aug  9 01:44:54 discovery sshd[19131]: Failed password for root from 66.35.208.204 port 50192 ssh2
-Aug  9 01:44:54 discovery sshd[19132]: Received disconnect from 66.35.208.204: 11: Bye Bye
-Aug  9 01:44:55 discovery sshd[19134]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 01:44:55 discovery unix_chkpwd[19136]: password check failed for user (root)
-Aug  9 01:44:55 discovery sshd[19134]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
-Aug  9 01:44:57 discovery sshd[19134]: Failed password for root from 66.35.208.204 port 51772 ssh2
-Aug  9 01:44:57 discovery sshd[19135]: Received disconnect from 66.35.208.204: 11: Bye Bye
-Aug  9 01:44:57 discovery sshd[19137]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 01:44:57 discovery unix_chkpwd[19139]: password check failed for user (root)
-Aug  9 01:44:57 discovery sshd[19137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
-Aug  9 01:45:00 discovery sshd[19137]: Failed password for root from 66.35.208.204 port 52780 ssh2
-Aug  9 01:45:00 discovery sshd[19138]: Received disconnect from 66.35.208.204: 11: Bye Bye
-Aug  9 04:13:55 discovery sshd[20871]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 04:13:55 discovery unix_chkpwd[20874]: password check failed for user (root)
-Aug  9 04:13:55 discovery sshd[20871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
-Aug  9 04:13:57 discovery sshd[20871]: Failed password for root from 67.23.177.229 port 33047 ssh2
-Aug  9 04:13:57 discovery sshd[20872]: Received disconnect from 67.23.177.229: 11: Bye Bye
-Aug  9 04:13:58 discovery sshd[20876]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 04:13:58 discovery unix_chkpwd[20878]: password check failed for user (root)
-Aug  9 04:13:58 discovery sshd[20876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
-Aug  9 04:14:00 discovery sshd[20876]: Failed password for root from 67.23.177.229 port 33330 ssh2
-Aug  9 04:14:00 discovery sshd[20877]: Received disconnect from 67.23.177.229: 11: Bye Bye
-Aug  9 04:14:00 discovery sshd[20879]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 04:14:00 discovery unix_chkpwd[20881]: password check failed for user (root)
-Aug  9 04:14:00 discovery sshd[20879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
-Aug  9 04:14:02 discovery sshd[20879]: Failed password for root from 67.23.177.229 port 33657 ssh2
-Aug  9 04:14:02 discovery sshd[20880]: Received disconnect from 67.23.177.229: 11: Bye Bye
-Aug  9 04:14:03 discovery sshd[20882]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug  9 04:14:03 discovery unix_chkpwd[20884]: password check failed for user (root)
-Aug  9 04:14:03 discovery sshd[20882]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
-Aug  9 04:14:04 discovery sshd[20882]: Failed password for root from 67.23.177.229 port 33931 ssh2
-Aug  9 04:14:04 discovery sshd[20883]: Received disconnect from 67.23.177.229: 11: Bye Bye
-Aug  9 17:01:29 discovery pam: gdm-password[2481]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=joh04926
-Aug  9 17:01:29 discovery pam: gdm-password[2481]: pam_unix(gdm-password:session): session opened for user joh04926 by (uid=0)
-Aug  9 17:07:00 discovery atd[4357]: pam_unix(atd:session): session opened for user root by (uid=0)
-Aug  9 17:07:00 discovery atd[4357]: pam_unix(atd:session): session closed for user root
-Aug  9 17:35:05 discovery pam: gdm-password[5139]: pam_selinux_permit(gdm-password:auth): Cannot determine the user's name
-Aug  9 17:35:05 discovery pam: gdm-fingerprint[5140]: pam_succeed_if(gdm-fingerprint:auth): error retrieving user name: Conversation error
-Aug  9 17:35:05 discovery pam: gdm-password[5139]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
-Aug  9 17:35:05 discovery pam: gdm-password[5139]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
-Aug  9 17:35:05 discovery pam: gdm-password[5139]: gkr-pam: couldn't get the user name: Conversation error
-Aug 10 16:05:33 discovery pam: gdm-password[5251]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=joh04926
-Aug 10 16:05:34 discovery pam: gdm-password[5251]: pam_unix(gdm-password:session): session opened for user joh04926 by (uid=0)
-Aug 10 16:27:53 discovery gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=1060 euid=1060 tty=:0.0 ruser= rhost=  user=joh04926
-Aug 10 16:51:40 discovery gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=1060 euid=1060 tty=:0.0 ruser= rhost=  user=joh04926
-Aug 10 17:17:03 discovery pam: gdm-password[20965]: pam_selinux_permit(gdm-password:auth): Cannot determine the user's name
-Aug 10 17:17:03 discovery pam: gdm-password[20965]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
-Aug 10 17:17:03 discovery pam: gdm-password[20965]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
-Aug 10 17:17:03 discovery pam: gdm-password[20965]: gkr-pam: couldn't get the user name: Conversation error
-Aug 10 17:17:03 discovery pam: gdm-fingerprint[20967]: pam_succeed_if(gdm-fingerprint:auth): error retrieving user name: Conversation error
-Aug 10 20:42:27 discovery sshd[23106]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug 10 20:42:27 discovery unix_chkpwd[23109]: password check failed for user (root)
-Aug 10 20:42:27 discovery sshd[23106]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
-Aug 10 20:42:29 discovery sshd[23106]: Failed password for root from 78.159.105.197 port 48133 ssh2
-Aug 10 20:42:30 discovery sshd[23107]: Received disconnect from 78.159.105.197: 11: Bye Bye
-Aug 10 20:42:36 discovery sshd[23110]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug 10 20:42:36 discovery unix_chkpwd[23113]: password check failed for user (root)
-Aug 10 20:42:36 discovery sshd[23110]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
-Aug 10 20:42:38 discovery sshd[23110]: Failed password for root from 78.159.105.197 port 55039 ssh2
-Aug 10 20:42:38 discovery sshd[23111]: Received disconnect from 78.159.105.197: 11: Bye Bye
-Aug 10 20:42:44 discovery sshd[23114]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug 10 20:42:44 discovery unix_chkpwd[23117]: password check failed for user (root)
-Aug 10 20:42:44 discovery sshd[23114]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
-Aug 10 20:42:46 discovery sshd[23114]: Failed password for root from 78.159.105.197 port 55769 ssh2
-Aug 10 20:42:46 discovery sshd[23115]: Received disconnect from 78.159.105.197: 11: Bye Bye
-Aug 10 20:42:52 discovery sshd[23126]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
-Aug 10 20:42:52 discovery unix_chkpwd[23128]: password check failed for user (root)
-Aug 10 20:42:52 discovery sshd[23126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
-Aug 10 20:42:54 discovery sshd[23126]: Failed password for root from 78.159.105.197 port 56499 ssh2
-Aug 10 20:42:54 discovery sshd[23127]: Received disconnect from 78.159.105.197: 11: Bye Bye
-Aug 10 23:01:02 discovery unix_chkpwd[24515]: password check failed for user (root)
-Aug 10 23:01:02 discovery sshd[24497]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
-Aug 10 23:01:04 discovery sshd[24497]: Failed password for root from 58.215.170.186 port 51178 ssh2
-Aug 10 23:01:04 discovery sshd[24498]: Received disconnect from 58.215.170.186: 11: Bye Bye
-Aug 10 23:01:06 discovery unix_chkpwd[24518]: password check failed for user (root)
-Aug 10 23:01:06 discovery sshd[24516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
-Aug 10 23:01:08 discovery sshd[24516]: Failed password for root from 58.215.170.186 port 51388 ssh2
-Aug 10 23:01:08 discovery sshd[24517]: Received disconnect from 58.215.170.186: 11: Bye Bye
-Aug 10 23:01:10 discovery unix_chkpwd[24521]: password check failed for user (root)
-Aug 10 23:01:10 discovery sshd[24519]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
-Aug 10 23:01:13 discovery sshd[24519]: Failed password for root from 58.215.170.186 port 51658 ssh2
-Aug 10 23:01:13 discovery sshd[24520]: Received disconnect from 58.215.170.186: 11: Bye Bye
-Aug 10 23:01:15 discovery unix_chkpwd[24524]: password check failed for user (root)
-Aug 10 23:01:15 discovery sshd[24522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
-Aug 10 23:01:17 discovery sshd[24522]: Failed password for root from 58.215.170.186 port 51908 ssh2
-Aug 10 23:01:17 discovery sshd[24523]: Received disconnect from 58.215.170.186: 11: Bye Bye
-Aug 11 01:44:47 discovery unix_chkpwd[26135]: password check failed for user (root)
-Aug 11 01:44:47 discovery sshd[26133]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
-Aug 11 01:44:49 discovery sshd[26133]: Failed password for root from 223.224.40.42 port 33766 ssh2
-Aug 11 01:44:49 discovery sshd[26134]: Received disconnect from 223.224.40.42: 11: Bye Bye
-Aug 11 01:44:52 discovery unix_chkpwd[26139]: password check failed for user (root)
-Aug 11 01:44:52 discovery sshd[26137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
-Aug 11 01:44:54 discovery sshd[26137]: Failed password for root from 223.224.40.42 port 34006 ssh2
-Aug 11 01:44:55 discovery sshd[26138]: Received disconnect from 223.224.40.42: 11: Bye Bye
-Aug 11 01:44:57 discovery unix_chkpwd[26150]: password check failed for user (root)
-Aug 11 01:44:57 discovery sshd[26140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
-Aug 11 01:44:59 discovery sshd[26140]: Failed password for root from 223.224.40.42 port 34316 ssh2
-Aug 11 01:44:59 discovery sshd[26141]: Received disconnect from 223.224.40.42: 11: Bye Bye
-Aug 11 01:45:02 discovery unix_chkpwd[26153]: password check failed for user (root)
-Aug 11 01:45:02 discovery sshd[26151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
-Aug 11 01:45:04 discovery sshd[26151]: Failed password for root from 223.224.40.42 port 34569 ssh2
-Aug 11 01:45:04 discovery sshd[26152]: Received disconnect from 223.224.40.42: 11: Bye Bye
-Aug 12 00:28:25 discovery sshd[7636]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug 12 00:28:25 discovery unix_chkpwd[7639]: password check failed for user (root)
-Aug 12 00:28:25 discovery sshd[7636]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
-Aug 12 00:28:27 discovery sshd[7636]: Failed password for root from 109.230.240.3 port 46787 ssh2
-Aug 12 00:28:27 discovery sshd[7637]: Received disconnect from 109.230.240.3: 11: Bye Bye
-Aug 12 00:28:28 discovery sshd[7640]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug 12 00:28:28 discovery unix_chkpwd[7642]: password check failed for user (root)
-Aug 12 00:28:28 discovery sshd[7640]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
-Aug 12 00:28:30 discovery sshd[7640]: Failed password for root from 109.230.240.3 port 47104 ssh2
-Aug 12 00:28:30 discovery sshd[7641]: Received disconnect from 109.230.240.3: 11: Bye Bye
-Aug 12 00:28:31 discovery sshd[7643]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug 12 00:28:31 discovery unix_chkpwd[7645]: password check failed for user (root)
-Aug 12 00:28:31 discovery sshd[7643]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
-Aug 12 00:28:33 discovery sshd[7643]: Failed password for root from 109.230.240.3 port 47449 ssh2
-Aug 12 00:28:33 discovery sshd[7644]: Received disconnect from 109.230.240.3: 11: Bye Bye
-Aug 12 00:28:34 discovery sshd[7646]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-Aug 12 00:28:34 discovery unix_chkpwd[7648]: password check failed for user (root)
-Aug 12 00:28:34 discovery sshd[7646]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
-Aug 12 00:28:36 discovery sshd[7646]: Failed password for root from 109.230.240.3 port 47783 ssh2
-Aug 12 00:28:36 discovery sshd[7647]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 10 09:49:16 mylar sshd[16619]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-32-100.mrs.umn.edu  user=elenam
+Aug 10 09:49:16 mylar sshd[16619]: Accepted password for elenam from 146.57.32.100 port 50007 ssh2
+Aug 10 09:49:16 mylar sshd[16619]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 10 10:45:00 mylar sshd[16619]: pam_unix(sshd:session): session closed for user elenam
+Aug 10 14:25:16 mylar sshd[29774]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-32-100.mrs.umn.edu  user=elenam
+Aug 10 14:25:16 mylar sshd[29774]: Accepted password for elenam from 146.57.32.100 port 52304 ssh2
+Aug 10 14:25:16 mylar sshd[29774]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 10 14:27:44 mylar sshd[29774]: pam_unix(sshd:session): session closed for user elenam
+Aug 10 14:33:49 mylar sshd[29914]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-32-100.mrs.umn.edu  user=elenam
+Aug 10 14:33:49 mylar sshd[29914]: Accepted password for elenam from 146.57.32.100 port 52432 ssh2
+Aug 10 14:33:49 mylar sshd[29914]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 10 14:49:32 mylar sshd[29914]: pam_unix(sshd:session): session closed for user elenam
+Aug 10 15:42:14 mylar sshd[8591]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-32-100.mrs.umn.edu  user=elenam
+Aug 10 15:42:14 mylar sshd[8591]: Accepted password for elenam from 146.57.32.100 port 52986 ssh2
+Aug 10 15:42:14 mylar sshd[8591]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 10 15:49:24 mylar sshd[8591]: pam_unix(sshd:session): session closed for user elenam
+Aug 10 17:13:43 mylar sshd[20366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-32-100.mrs.umn.edu  user=elenam
+Aug 10 17:13:43 mylar sshd[20366]: Accepted password for elenam from 146.57.32.100 port 53254 ssh2
+Aug 10 17:13:43 mylar sshd[20366]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 10 18:49:14 mylar unix_chkpwd[21395]: password check failed for user (root)
+Aug 10 18:49:14 mylar login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty4 ruser= rhost=  user=root
+Aug 10 18:49:16 mylar login: FAILED LOGIN 1 FROM (null) FOR root, Authentication failure
+Aug 10 18:49:20 mylar login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 10 18:49:20 mylar login: ROOT LOGIN ON tty4
+Aug 10 18:50:21 mylar login: pam_unix(login:session): session closed for user root
+Aug 10 20:04:16 mylar sshd[20366]: pam_unix(sshd:session): session closed for user elenam
+Aug 10 20:42:32 mylar sshd[22580]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 10 20:42:32 mylar unix_chkpwd[22583]: password check failed for user (root)
+Aug 10 20:42:32 mylar sshd[22580]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
+Aug 10 20:42:34 mylar sshd[22580]: Failed password for root from 78.159.105.197 port 56228 ssh2
+Aug 10 20:42:34 mylar sshd[22581]: Connection closed by 78.159.105.197
+Aug 10 23:01:02 mylar unix_chkpwd[23972]: password check failed for user (root)
+Aug 10 23:01:02 mylar sshd[23954]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:04 mylar sshd[23954]: Failed password for root from 58.215.170.186 port 46702 ssh2
+Aug 10 23:01:04 mylar sshd[23971]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:06 mylar unix_chkpwd[23975]: password check failed for user (root)
+Aug 10 23:01:06 mylar sshd[23973]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:08 mylar sshd[23973]: Failed password for root from 58.215.170.186 port 46930 ssh2
+Aug 10 23:01:08 mylar sshd[23974]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:11 mylar unix_chkpwd[23978]: password check failed for user (root)
+Aug 10 23:01:11 mylar sshd[23976]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:13 mylar sshd[23976]: Failed password for root from 58.215.170.186 port 47211 ssh2
+Aug 10 23:01:13 mylar sshd[23977]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:15 mylar unix_chkpwd[23981]: password check failed for user (root)
+Aug 10 23:01:15 mylar sshd[23979]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:17 mylar sshd[23979]: Failed password for root from 58.215.170.186 port 47443 ssh2
+Aug 10 23:01:17 mylar sshd[23980]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 11 01:44:43 mylar unix_chkpwd[25610]: password check failed for user (root)
+Aug 11 01:44:43 mylar sshd[25608]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:45 mylar sshd[25608]: Failed password for root from 223.224.40.42 port 34248 ssh2
+Aug 11 01:44:46 mylar sshd[25609]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:44:48 mylar unix_chkpwd[25614]: password check failed for user (root)
+Aug 11 01:44:48 mylar sshd[25612]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:50 mylar sshd[25612]: Failed password for root from 223.224.40.42 port 34502 ssh2
+Aug 11 01:44:50 mylar sshd[25613]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:44:52 mylar unix_chkpwd[25617]: password check failed for user (root)
+Aug 11 01:44:52 mylar sshd[25615]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:55 mylar sshd[25615]: Failed password for root from 223.224.40.42 port 34729 ssh2
+Aug 11 01:44:55 mylar sshd[25616]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:44:57 mylar unix_chkpwd[25628]: password check failed for user (root)
+Aug 11 01:44:57 mylar sshd[25626]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:59 mylar sshd[25626]: Failed password for root from 223.224.40.42 port 35033 ssh2
+Aug 11 01:45:00 mylar sshd[25627]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 12:46:42 mylar sshd[32462]: reverse mapping checking getaddrinfo for 69-42-253-248.fedtel.stellarllc.net [69.42.253.248] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 11 12:46:50 mylar sshd[32462]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=69.42.253.248  user=elenam
+Aug 11 12:46:50 mylar sshd[32462]: Accepted password for elenam from 69.42.253.248 port 6140 ssh2
+Aug 11 12:46:50 mylar sshd[32462]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 11 12:51:58 mylar sshd[32462]: pam_unix(sshd:session): session closed for user elenam
+Aug 11 18:35:01 mylar sshd[17576]: reverse mapping checking getaddrinfo for 69-42-253-248.fedtel.stellarllc.net [69.42.253.248] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 11 18:35:09 mylar sshd[17576]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=69.42.253.248  user=elenam
+Aug 11 18:35:09 mylar sshd[17576]: Accepted password for elenam from 69.42.253.248 port 52595 ssh2
+Aug 11 18:35:09 mylar sshd[17576]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 11 18:36:29 mylar sshd[17576]: pam_unix(sshd:session): session closed for user elenam
+Aug 11 19:01:08 mylar sshd[17915]: reverse mapping checking getaddrinfo for 69-42-253-248.fedtel.stellarllc.net [69.42.253.248] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 11 19:01:17 mylar sshd[17915]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=69.42.253.248  user=elenam
+Aug 11 19:01:17 mylar sshd[17915]: Accepted password for elenam from 69.42.253.248 port 52837 ssh2
+Aug 11 19:01:17 mylar sshd[17915]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 11 19:03:04 mylar sshd[17915]: pam_unix(sshd:session): session closed for user elenam
+Aug 12 00:28:24 mylar sshd[22094]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:24 mylar unix_chkpwd[22097]: password check failed for user (root)
+Aug 12 00:28:24 mylar sshd[22094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:26 mylar sshd[22094]: Failed password for root from 109.230.240.3 port 51283 ssh2
+Aug 12 00:28:26 mylar sshd[22095]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:27 mylar sshd[22098]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:27 mylar unix_chkpwd[22100]: password check failed for user (root)
+Aug 12 00:28:27 mylar sshd[22098]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:29 mylar sshd[22098]: Failed password for root from 109.230.240.3 port 51556 ssh2
+Aug 12 00:28:29 mylar sshd[22099]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:30 mylar sshd[22101]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:30 mylar unix_chkpwd[22103]: password check failed for user (root)
+Aug 12 00:28:30 mylar sshd[22101]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:32 mylar sshd[22101]: Failed password for root from 109.230.240.3 port 51856 ssh2
+Aug 12 00:28:33 mylar sshd[22102]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:33 mylar sshd[22104]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:33 mylar unix_chkpwd[22106]: password check failed for user (root)
+Aug 12 00:28:33 mylar sshd[22104]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:35 mylar sshd[22104]: Failed password for root from 109.230.240.3 port 52242 ssh2
+Aug 12 00:28:35 mylar sshd[22105]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 13 13:08:16 mylar sshd[12255]: reverse mapping checking getaddrinfo for 69-42-253-248.fedtel.stellarllc.net [69.42.253.248] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 13 13:08:28 mylar sshd[12255]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=69.42.253.248  user=elenam
+Aug 13 13:08:28 mylar sshd[12255]: Accepted password for elenam from 69.42.253.248 port 51964 ssh2
+Aug 13 13:08:28 mylar sshd[12255]: pam_unix(sshd:session): session opened for user elenam by (uid=0)
+Aug 13 13:09:24 mylar sshd[12255]: pam_unix(sshd:session): session closed for user elenam

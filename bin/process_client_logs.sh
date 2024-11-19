@@ -1,28 +1,26 @@
-# Store the absolute path of the current directory
-current_dir=$(pwd)
+#!/bin/bash
 
-# Check if directory exists
-if [ ! -d "$1" ]; then
-    echo "Directory $1 does not exist."
-    exit 1
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <directory>"
+  exit 1
 fi
 
-# Define output file path
-output_file_path="$current_dir/data/discovery/failed_login_data.txt"
+# Check if the directory exists and is not empty
+if [ ! -d "$1" ] || [ -z "$(ls -A "$1")" ]; then
+  echo "Directory $1 does not exist or is empty"
+  exit 1
+fi
 
-# Create the directory if it doesn't exist
-mkdir -p "$(dirname "$output_file_path")"
-
-# Remove old failed_login_data.txt if it exists
-rm -f "$output_file_path"
-
-# Move to the specified directory
-cd "$1" || exit
-
-# Process log files
-for file in *
-do
-    if [ -f "$file" ]; then
-
-    fi
-done
+# Process the log files
+find "$1" -type f -exec cat {} + | awk '
+  /Failed password for invalid user/ {
+    split($0, a, " ")
+    split(a[3], t, ":")
+    print a[1], a[2], t[1], a[11], a[13]
+  }
+  /Failed password for / && !/invalid user/ && !/Accepted password/ {
+    split($0, a, " ")
+    split(a[3], t, ":")
+    print a[1], a[2], t[1], a[9], a[11]
+  }
+' > "$1/failed_login_data.txt"
