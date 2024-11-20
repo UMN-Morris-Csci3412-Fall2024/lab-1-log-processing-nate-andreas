@@ -1,13 +1,15 @@
 #!/bin/bash
 
-# Get the content file, specifier, and output file from the command line arguments
-content_file=$1
-specifier=$2
-output_file=$3
+# Check for correct number of arguments
+if [ $# -ne 3 ]; then
+    echo "Usage: $0 <html_template> <content_file> <output_file>"
+    exit 1
+fi
 
-# Construct the header and footer file names based on the specifier
-header_file="${specifier}_header.html"
-footer_file="${specifier}_footer.html"
+# Get the arguments
+html_template="$1"
+content_file="$2"
+output_file="$3"
 
-# Concatenate the header, content, and footer files into the output file
-cat "$header_file" "$content_file" "$footer_file" > "$output_file"
+# Create the final HTML file by concatenating the header, content, and footer
+cat "${html_template}_header.html" "$content_file" "${html_template}_footer.html" > "$output_file"
